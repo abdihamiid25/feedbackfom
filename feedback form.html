@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Form</title>
+</head>
+<body>
+  <h2>Feedback Form</h2>
+
+  <form action="feedback.php" method="post">
+    <label>Name:</label><br>
+    <input type="text" name="name"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Rate our service:</label><br>
+    <select name="rating">
+      <option>Excellent</option>
+      <option>Good</option>
+      <option>Average</option>
+      <option>Poor</option>
+    </select><br><br>
+
+    <label>Comments:</label><br>
+    <textarea name="comments" rows="4" cols="30"></textarea><br><br>
+
+    <input type="submit" value="Submit Feedback">
+  </form>
+</body>
+</html>
